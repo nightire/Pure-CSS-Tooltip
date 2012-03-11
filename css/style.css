@@ -1,0 +1,50 @@
+body {
+	width: 740px;
+	margin: 100px auto 0;
+	color: #2b2b2b;
+	font: 1.5em / 1.5 sans-serif;
+	text-align: center;
+}
+
+section {
+	padding: 50px 0;
+}
+
+a {
+	position: relative;
+	margin: 0 30px;
+	border-bottom: 1px solid #db70db;
+	color: #545454;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom-style: none;
+	color: #2b2b2b;
+}
+
+a:hover:after {
+	content: attr(data-tooltip);
+	display: block;
+	position: absolute;
+	bottom: 2em;
+	left: 25%;
+	min-width: 150%;
+	padding: 3px 5px 2px;
+	color: white;
+	background-color: #2b2b2b;
+	font-size: 12px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+	-moz-transform: scale(1.1) rotate(-1deg) translate(0, 0) skew(0deg, -2deg);
+	-webkit-transform: scale(1.1) rotate(-1deg) translate(0, 0) skew(0deg, -2deg);
+	-ms-transform: scale(1.1) rotate(-1deg) translate(0, 0) skew(0deg, -2deg);
+	-o-transform: scale(1.1) rotate(-1deg) translate(0, 0) skew(0deg, -2deg);
+	transform: scale(1.1) rotate(-1deg) translate(0, 0) skew(0deg, -2deg);
+}
+
+
+
+
